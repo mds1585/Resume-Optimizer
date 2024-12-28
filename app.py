@@ -4,7 +4,7 @@ class ResumeOptimizerWithChatGPT:
     def __init__(self, resume, job_description, api_key):
         self.resume = resume
         self.job_description = job_description
-        openai.api_key = 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
+        openai.api_key = "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"
 
     def call_chatgpt(self, prompt):
         """
